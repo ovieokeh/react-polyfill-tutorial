@@ -10,8 +10,6 @@ const days = [
   { name: "Sunday", feeling: "🥺" },
 ];
 
-// Your code goes here
-
 function App() {
   return (
     <div className="App">
@@ -19,7 +17,7 @@ function App() {
 
       <div>
         {days.map((day) => {
-          const dayName = day.name; // Update this line to use padEnd
+          const dayName = day.name.padEnd(23);
 
           return (
             <div key={day.name}>
