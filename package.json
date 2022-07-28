@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:no-pad-end": "export VITE_SIMULATE_MODE='true' && vite",
     "build": "vite build",
     "preview": "vite preview"
   },

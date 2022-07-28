@@ -5,6 +5,11 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React Polyfill Example</title>
+    <script>
+      delete String.prototype.padEnd;
+      console.info('deleted String.prototype.padEnd');
+      console.info(String.prototype.padEnd)
+    </script>
   </head>
   <body>
     <div id="root"></div>

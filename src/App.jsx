@@ -1,6 +1,3 @@
-import { useEffect } from "react";
-
-import useSimulateNoPadEnd from "./useSimulateNoPadEnd";
 import "./App.css";
 
 const days = [
@@ -13,13 +10,9 @@ const days = [
   { name: "Sunday", feeling: "🥺" },
 ];
 
+// Your code goes here
+
 function App() {
-  useSimulateNoPadEnd();
-
-  useEffect(() => {
-    // Your code goes here
-  }, []);
-
   return (
     <div className="App">
       <h1>Weekday feels</h1>
