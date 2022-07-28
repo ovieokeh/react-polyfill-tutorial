@@ -1,3 +1,4 @@
+import "core-js/actual/string/pad-end";
 import "./App.css";
 
 const days = [
